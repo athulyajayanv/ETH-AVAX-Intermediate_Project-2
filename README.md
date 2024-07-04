@@ -18,6 +18,14 @@ The React component HomePage integrates MetaMask for account connectivity, displ
    git clone https://github.com/athulyajayanv/ETH-AVAX-Intermediate_Project-2.git
 
    ```
+2. Navigate to the project directory:
+   ```
+   cd ETH-AVAX-Intermediate_Project-2
+   ```
+3. Install the necessary dependencies:
+   ```
+   npm install
+   ```
    
 ## Starter Next/Hardhat Project
 
