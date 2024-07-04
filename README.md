@@ -12,23 +12,37 @@ The React component HomePage integrates MetaMask for account connectivity, displ
 ## Contract
 
 1. constructor(uint initBalance): Initializes the contract with a specified initial balance and sets the owner to the contract deployer.
+   
 2. getBalance(): Returns the current balance of the contract.
+   
 3. deposit(uint256 _amount): Allows the owner to deposit a specified amount of Ether into the contract. Emits a Deposit event.
+   
 4. withdraw(uint256 _withdrawAmount): Allows the owner to withdraw a specified amount of Ether from the contract. If the balance is insufficient, it reverts with a custom error. Emits a Withdraw event.
+   
 5. checkBalanceAbove(uint256 _threshold): Checks if the contract balance is above a specified threshold.
+   
 6. resetBalance(): Resets the contract balance to zero. Emits a ResetBalance event.
 
 ## Frontend 
 
 1. getWallet(): Checks if MetaMask is installed and sets the Ethereum wallet.
+   
 2. handleAccount(account): Handles the connected account by setting it to state and logging it.
+   
 3. connectAccount(): Connects MetaMask account to the application and retrieves the ATM contract.
+   
 4. getATMContract(): Creates an instance of the ATM contract using ethers.js.
+   
 5. getBalance(): Retrieves and sets the balance from the ATM contract.
+    
 6. deposit(): Calls the deposit function on the ATM contract to deposit 1 ETH.
+    
 7. withdraw(): Calls the withdraw function on the ATM contract to withdraw 1 ETH.
+    
 8. checkBalanceThreshold(): Checks if the balance is above 3 ETH and sets the result to state.
+    
 9. resetBalance(): Calls the resetBalance function on the ATM contract to reset the balance to zero.
+    
 10. initUser(): Initializes the user by checking if MetaMask is installed and connected, and displays account and balance information along with action buttons.
 
 # Getting Started
