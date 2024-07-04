@@ -11,8 +11,6 @@ The React component HomePage integrates MetaMask for account connectivity, displ
 
 # Getting Started
 
-## Starter Next/Hardhat Project
-
 ## Installing
 
 1. Clone the repository:
@@ -20,6 +18,8 @@ The React component HomePage integrates MetaMask for account connectivity, displ
    git clone https://github.com/athulyajayanv/ETH-AVAX-Intermediate_Project-2.git
 
    ```
+   
+## Starter Next/Hardhat Project
 
 After cloning the github, you will want to do the following to get the code running on your computer.
 
